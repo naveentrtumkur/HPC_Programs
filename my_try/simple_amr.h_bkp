@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define EPSILON 0.1
+#define AFFECT_RATE 0.1
+
+int loadInput(box *box1);
+
+typedef struct{
+	double temp;
+	int perimeter;
+	int numNeighbors;
+	} grids;
+
+typedef struct{
+	int upp_x, upp_y, low_x, low_y;
+	int height, width;
+	} inputdata;
+
+typedef struct{
+	int id;
+	inputdata data;
+	} box;
