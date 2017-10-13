@@ -1,9 +1,9 @@
-CSE 5441 homework  test files
+CSE   test files
 
 Located in this directory are test data files for use in your lab assignments:
 
 =====================================================================================
-Files for Autumn '15 lab 1:  "simplified AMR - sequential version"
+Files for lab 1:  "simplified AMR - sequential version"
 
 testgrid_1	    a simple 3x3 grid of unit-sized boxes
 		    may be useful for testing
